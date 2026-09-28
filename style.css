@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', 'Courier New', Courier, monospace
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: black;
+    color: lightgrey;
+    line-height: 1.6;
+    padding-bottom: 20rem;
+}
+header {
+    background: black;
+    border-bottom: 1px solid dimgrey;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: deepskyblue;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+nav a {
+    text-decoration: none;
+    color: lightgrey;
+    font-weight: bold;
+    transition: color o.2s ease;
+}
+nav a:hover {
+    color: deepskyblue;
+}
+.section {
+    max-width: 1000px;
+    margin: 4rem auto;
+    padding: 2rem;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+h2::before {
+    content: "> ";
+    color: deepskyblue;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background: darkslategrey;
+    padding: 2.5rem;
+    border-radius: 12px;
+    border: 1px solid dimgrey;
+}
+.profile-img {
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid deepskyblue;
+    background: black;
+    transition: transforn 0.3s ease;
+}
+.profile-img-box:hover {
+    transform: scale(1.05);
+}
+.about-text p {
+    color: var(--text-muted);
+    font-weight: 1.1rem;
+}
+#skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+}
+#skills-list li {
+    background: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: 1px solid deepskyblue;
+    font-weight: bold;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(300px 1fr));
+    gap: 2rem;
+}
+.project-card {
+    background-color: darkslategrey;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid dimgrey;
+    transition: transform ease 0.3s ease;
+}
+.project-card:hover {
+    transform: translateY(-5);
+    border-color: deepskyblue;
+}
+.project-card h3 {
+    margin-bottom: 0.5rem;
+    color: white;
+}
+.tech-tag {
+    display: inline-block;
+    color: deepskyblue;
+    font-weight: bold;
+    margin-top: 1rem;
+    
+}
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: deepskyblue;
+    padding: 0.75rem 1.75rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0..2s ease;
+    margin-right: 1rem;
+}
+.btn:hover {
+    background: deepskyblue;
+    color: black;
+}
+.btn.secondary {
+    background: white;
+    border-color: dimgrey;
+}
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+}
+
+
+
+
+
+
+
