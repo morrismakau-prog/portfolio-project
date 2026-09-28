@@ -3,7 +3,7 @@
 A responsive, single-page professional portfolio built to showcase my techmical skills and projets.
 
 ## Live Demo
-* **Live site**" [View Live Portfolio](https://github.io/morrismakau-prog)
+* **Live site**" [View Live Portfolio](https://morrismakau-prog.github.io/portfolio-project/index.html)
 
 ## Features
 - **Dynamic DOM Rendering**: Skills and projects are generated usimg JavaScrpit arrays and loops instead of hardcoded HTML.
