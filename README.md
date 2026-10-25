@@ -5,6 +5,7 @@ A responsive, single-page professional portfolio built to showcase my techmical 
 ## Live Demo
 * **Live site**" [View Live Portfolio](https://morrismakau-prog.github.io/portfolio-project/index.html)
 
+https://www.figma.com/design/AOWMbl3Zm0fc7DmPCvIvFl/Untitled?node-id=1-2&t=8pg26uBYuJd3rLVW-1
 ## Features
 - **Dynamic DOM Rendering**: Skills and projects are generated usimg JavaScrpit arrays and loops instead of hardcoded HTML.
 - **Responsive Layout**:Adapt smoothly to mobile phones, tablets, and desktop displays.
